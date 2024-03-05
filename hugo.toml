@@ -1,0 +1,4 @@
+baseURL = 'https://matsu-riku2138.github.io/myblog/'
+languageCode = 'ja-jp'
+title = 'まりつく.com'
+theme = 'mytheme' 

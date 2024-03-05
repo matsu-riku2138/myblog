@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+<head><script src="/myblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=myblog/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<title>情報システム戦略とシステム企画 | まりつく.com</title>
+
+    <link rel="stylesheet" href="/myblog/css/main.css">
+
+
+      <script src="/myblog/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="/myblog"><h2>まりつく.com</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/myblog/#profile">私について</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/myblog/posts">投稿</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/myblog/#skill">資格など</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/myblog/#contact">問い合わせ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  </header>
+  <main>
+    
+  <div class="main m-auto px-3" style="max-width: 800px;">
+    <h2 class="py-2">情報システム戦略とシステム企画</h2>
+    
+    
+    
+    <time datetime="2024/02/23">2024/02/23</time>
+    <hr>
+    <div class="content mt-3">
+      <h5 id="目次">目次</h5>
+<ol>
+<li>全体最適化計画とシステム化計画</li>
+<li>エンタープライズアーキテクチャ(EA)</li>
+<li>要求分析・要件定義・調達</li>
+</ol>
+<h4 id="全体最適化計画とシステム化計画">全体最適化計画とシステム化計画</h4>
+<ul>
+<li>全体最適化計画は業務とシステムが進むべき方向を示すこと</li>
+<li>システム化計画は全体最適化計画を基に計画を立案</li>
+</ul>
+<p><strong>全体最適化計画</strong>:組織全体として業務とシステムが進むべき方向を示す計画で、全体最適化目標、ITガバナンス<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>の方向、経営戦略との整合性、情報システムのあるべき姿(To-beモデル)などが検討される</p>
+<p><strong>システム化計画</strong>:全体最適化計画に基づき、各部門において個別に作られたルールや情報システムを統合化し、効率性や有効性を向上させるための計画</p>
+<h5 id="ビジネスモデルとビジネスプロセス">ビジネスモデルとビジネスプロセス</h5>
+<ul>
+<li><strong>ビジネスモデル</strong>:ビジネスコンセプトを具体化させるための枠組みで、利益を生み出すビジネスの手順の雛形</li>
+<li><strong>ビジネスプロセス</strong>:業務の流れを細分化したもの</li>
+</ul>
+<h5 id="業務モデル">業務モデル</h5>
+<p>情報システムの全体計画の土台になるもので、業務を抽象化して表現したものである。
+UMLやDFD、E-Rダイアグラムなどが使われる。</p>
+<h5 id="情報システムモデル">情報システムモデル</h5>
+<p>ここのビジネスプロセス間の連携を円滑にするための情報システム群。インターネット受注システムやクレジット会社との連携が該当する。</p>
+<h4 id="エンタープライズアーキテクチャea">エンタープライズアーキテクチャ(EA)</h4>
+<ul>
+<li>EAは組織全体の最適化を実現するための概念</li>
+<li>EAの構成要素にはBA、DA、AA、TAがある。</li>
+</ul>
+<h5 id="eaの構成要素">EAの構成要素</h5>
+<p>EAを構成する要素は、ビジネスアーキテクチャ、データアーキテクチャ、アプリケーションアーキテクチャ、テクノロジアーキテクチャがある。</p>
+<ul>
+<li><strong>ビジネスアキテクチャ</strong>:組織の目標や業務を体系化したアーキテクチャ</li>
+<li><strong>データアキテクチャ</strong>:組織の目標や業務に必要となるデータの構成、データ間の連携を体系化したアーキテクチャ</li>
+<li><strong>アプリケーションアーキテクチャ</strong>:組織の目標を実現するために業務と、それを実現するアプリケーションの関係を体系化したアーキテクチャ</li>
+<li><strong>テクノロジアーキテクチャ</strong>:業務を実現するためのハードウェア、ソフトウェア、ネットワークの技術を体系化したアーキテクチャ</li>
+</ul>
+<h4 id="要求分析要件定義調達">要求分析・要件定義・調達</h4>
+<ul>
+<li>要件定義には業務要件定義、機能要件定義、非機能要件定義がある</li>
+<li>ファブレスは生産設備をもたず外部に生産を委託</li>
+</ul>
+<p><strong>要求分析</strong>は新たなシステムやシステム更新に際しての調査、定義に関わる工程である要求項目を洗い出し、分析、システム化、ニーズの整理、前提条件や制約事項の整理という手順で行われる。</p>
+<p><strong>要件定義</strong>はシステムやソフトウェア開発において実装するべき機能や満たすべき性能などを明確にしていく作業</p>
+<h5 id="rfpとrfi">RFPとRFI</h5>
+<ul>
+<li><strong>RFP</strong><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>:受注側がベンダー企業に提案書の提出を依頼するための文書</li>
+<li><strong>RFI</strong><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>:ベンダー企業に対しシステム化の目的や業務概要を明示し、情報提供を依頼すること</li>
+</ul>
+<h5 id="要件定義">要件定義</h5>
+<ul>
+<li><strong>機能要件定義</strong>:業務要件を実現するために必要な情報システムの機能を明らかにする</li>
+<li><strong>非機能要件定義</strong>:パフォーマンスや信頼性(品質)、移行要件など</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>ITガバナンス:企業が競争優位性の構築を目的にIT戦略の策定・実行を統制し、あるべき方向を導く組織能力&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>RFP(Request For Proposal:提案依頼書)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>RFI(Request For Information:情報提供依頼)&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    <hr>
+    
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/myblog/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/">応用情報技術者試験</a></li>
+        <li><a href="/myblog/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8/">ストラテジ</a></li>
+    </ul>
+  </div>
+
+  </div>
+
+  </main>
+  <footer>
+    
+<footer class="footer pb-4">
+    <div class="container pt-5 text-center">
+        <div class="row justify-content-center pb-3">
+            <div class="col">
+                <div class="sns-icon-twitter float-end">
+                    <a href="https://twitter.com">
+                        <i class="bi bi-twitter" style="font-size:36px;color: rgb(29,155,240);"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="sns-icon-github float-start">
+                    <a href="https://github.com">
+                        <i class="bi bi-github" style="font-size:36px; color: #000;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy;2022-2024 まりつく.com All Rights Reserved.</p>
+    </div>
+</footer>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

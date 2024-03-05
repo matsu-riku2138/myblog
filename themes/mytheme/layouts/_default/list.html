@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <h2 class="text-center pb-3">{{ .Title }}</h2>
+  {{ range .Pages }}
+  <article class="px-3">
+    <div class="card mb-3 m-auto" style="max-width: 800px;">
+      <div class="card-body">
+        <span class="article-date" style="font-family: sans-serif;">{{.Date | time.Format "2006/1/2"}}</span>
+        <h5 class="card-title"><a class="text-decoration-none text-muted" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
+        <p class="card-text">{{ .Summary }}</p>
+      </div>
+    </div>
+  </article>
+    <!-- <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }} -->
+  {{ end }}
+{{ end }}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ストラテジ系 on まりつく.com</title>
+    <link>https://matsu-riku2138.github.io/myblog/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8%E7%B3%BB/</link>
+    <description>Recent content in ストラテジ系 on まりつく.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 23 Feb 2024 17:33:03 +0900</lastBuildDate>
+    <atom:link href="https://matsu-riku2138.github.io/myblog/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技術戦略マネジメント</title>
+      <link>https://matsu-riku2138.github.io/myblog/posts/gijutsusenryakumanagement/</link>
+      <pubDate>Fri, 23 Feb 2024 17:33:03 +0900</pubDate>
+      <guid>https://matsu-riku2138.github.io/myblog/posts/gijutsusenryakumanagement/</guid>
+      <description>目次 技術開発戦略の立案 技術開発計画 技術開発戦略の立案 MOTは企業が持続的発展のために技術の可能性を事業に結びつけること イノベーションは新しい</description>
+    </item>
+    <item>
+      <title>経営戦略マネジメント</title>
+      <link>https://matsu-riku2138.github.io/myblog/posts/keieisenryakumanagement/</link>
+      <pubDate>Fri, 23 Feb 2024 16:20:15 +0900</pubDate>
+      <guid>https://matsu-riku2138.github.io/myblog/posts/keieisenryakumanagement/</guid>
+      <description>目次 経営戦略手法 マーケティング 経営管理システム 経営戦略手法 SWOT分析は強み、弱み、機械、脅威の４つの軸で評価 PPMにおいて利益の殆どを花形</description>
+    </item>
+    <item>
+      <title>情報システム戦略とシステム企画</title>
+      <link>https://matsu-riku2138.github.io/myblog/posts/isysandsysplan/</link>
+      <pubDate>Fri, 23 Feb 2024 15:16:32 +0900</pubDate>
+      <guid>https://matsu-riku2138.github.io/myblog/posts/isysandsysplan/</guid>
+      <description>目次 全体最適化計画とシステム化計画 エンタープライズアーキテクチャ(EA) 要求分析・要件定義・調達 全体最適化計画とシステム化計画 全体最適化計画</description>
+    </item>
+  </channel>
+</rss>

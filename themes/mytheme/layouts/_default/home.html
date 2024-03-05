@@ -1,0 +1,122 @@
+{{ define "main" }}
+<div class="container pb-4" id="profile">
+  <div class="row justify-content-center mt-5">
+      <div class="col-lg-3">
+          <div class="d-flex flex-column mb-3 text-center">
+            <!-- {{ with .Site.Params.myicon }} -->
+              {{- with resources.Get "images/waifu4.jpg" }}
+            <!-- <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div> -->
+              <div>
+                <img src="{{ .RelPermalink }}" class="rounded rounded-circle" alt="icon" style="max-width: 250px;margin-right: 20px;">
+              </div>
+              {{- end }}
+              <!-- {{ end }} -->
+              <div class="pt-4">
+                  <h2>まりつく</h2>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3" style="margin-left: 20px;">
+          <div style="margin-left: 20px;">
+              <h2>自己紹介</h2>
+              <p>とある高専生。<br>
+                  備忘録を投稿しています。
+              </p>
+              <h4>取り組んでいること</h4>
+              <ul>
+                  <!-- <li>VueでWebアプリの開発</li> -->
+                  <!-- <li>Unityでゲーム制作</li> -->
+                  <li>応用情報技術者試験の取得に向けた勉強</li>
+              </ul>
+              <h4>やってみたいこと</h4>
+              <ul>
+                  <li>マイコン</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+<hr>
+  <!-- {{ .Content }} -->
+  <h2 class="text-center pt-3 pb-3">投稿</h2>
+  <div class="pb-3">
+    {{ range site.RegularPages }}
+    
+    <article class="px-3">
+      <div class="card mb-3 m-auto" style="max-width: 1000px;">
+        <div class="card-body">
+          <span class="article-date" style="font-family: sans-serif;">{{.Date | time.Format "2006/1/2"}}</span>
+          <h5 class="card-title"><a class="text-decoration-none text-muted" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
+          <p class="card-text">{{ .Summary | }}</p>
+        </div>
+      </div>
+    </article>
+      {{ end }}
+  </div>
+  <hr>
+  
+  <div class="skill pb-3" id="skill">
+    <h2 class="text-center pt-5 pb-4">資格など</h2>
+    <div class="col-lg-7 m-auto px-2 text-left" style="max-width: 800px;">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="col-3" scope="col">名前</th>
+              <th class="col-4" scope="col">取得年月</th>
+              <th class="col-5" scope="col">できること</th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td>普通自動車免許</td>
+                <td>令和4年5月</td>
+                <td>車の運転</td>
+              </tr>
+              <tr>
+                <td>アマチュア無線３級</td>
+                <td>令和4年8月</td>
+                <td>50W以下のアマチュア無線機での交信</td>
+              </tr>
+              <tr>
+                <td>基本情報技術者試験</td>
+                <td>令和5年9月</td>
+                <td>基本的な情報の知識があると認められた</td>
+              </tr>
+              <tr>
+                <td>第二種電気工事士</td>
+                <td>令和6年2月</td>
+                <td>600V以下で受電する設備の電気工事</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<hr>
+<div class="container" id="contact">
+  <h2 class="text-center pt-5 pb-3">お問い合わせ</h2>
+  <div class="row m-auto" style="max-width: 600px;">
+      <!-- <form action="#" method="post"> -->
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">メールアドレス</label>
+              <input type="email" class="form-control m-auto" id="exampleFormControlInput1" style="max-width: 600px;">
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">お名前</label>
+              <input type="text" class="form-control m-auto" id="exampleFormControlInput1" style="max-width: 600px;">
+          </div>
+          <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容</label>
+              <textarea class="form-control m-auto" id="exampleFormControlTextarea1" rows="5"  style="max-width: 600px;"></textarea>
+          </div>
+          <div class="mb-3 mt-1">
+              <div class="submit-button">
+                  <div class="d-grid gap-2 d-md-block text-center mt-1 m-auto" style="max-width: 100px;">
+                      <button type="submit" class="btn btn-secondary rounded-pill">送信する</button>
+                  </div>
+              </div>
+          </div>
+      <!-- </form> -->
+  </div>
+</div>
+<hr>
+{{ end }}
