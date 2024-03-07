@@ -12,7 +12,7 @@
     {{ else if isset .Params "subtitle"}}
         {{ printf "%s | %s | %s" .Params.subtitle .Title site.Title }}
     {{ else }}
-    {{ printf "%s | %s" .Title site.Title }}
+        {{ printf "%s | %s" .Title site.Title }}
     {{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
