@@ -4,6 +4,8 @@ date = 2024-02-21T22:46:40+09:00
 draft = false
 isCJKLanguage = true
 tags = ['応用情報技術者試験','マネジメント']
+[params]
+    subtitle = '応用情報技術者試験'
 +++
 
 ##### 目次

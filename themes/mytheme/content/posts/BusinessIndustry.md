@@ -4,7 +4,9 @@ date = 2024-02-24T16:27:23+09:00
 draft = false
 isCJKLanguage = true
 tags = ['応用情報技術者試験','ストラテジ']
-description = 'ストラテジのビジネスインダストリの学習したことをまとめます'
+description = 'ビジネスインダストリの学習したことのまとめです'
+[params]
+    subtitle = '応用情報技術者試験'
 +++
 
 目次

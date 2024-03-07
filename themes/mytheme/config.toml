@@ -5,6 +5,7 @@ summaryLength = 10
 
 [params]
 myicon = "images/waifu4.jpg"
+subtitle = ""
 
 [frontmatter]
   lastmod = ':fileModTime'
