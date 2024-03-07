@@ -2,3 +2,5 @@ baseURL = 'https://www.best-book.info'
 languageCode = 'ja-jp'
 title = 'まりつく.com'
 theme = 'mytheme' 
+[params]
+    subtitle = ""
