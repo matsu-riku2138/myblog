@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on まりつく.com</title>
-    <link>https://www.best-book.info/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on まりつく.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 26 Feb 2024 14:33:09 +0900</lastBuildDate>
-    <atom:link href="https://www.best-book.info/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ストラテジ</title>
-      <link>https://www.best-book.info/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8/</link>
+      <link>http://localhost:1313/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8/</link>
       <pubDate>Mon, 26 Feb 2024 14:33:09 +0900</pubDate>
-      <guid>https://www.best-book.info/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8/</guid>
+      <guid>http://localhost:1313/tags/%E3%82%B9%E3%83%88%E3%83%A9%E3%83%86%E3%82%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>応用情報技術者試験</title>
-      <link>https://www.best-book.info/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/</link>
+      <link>http://localhost:1313/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/</link>
       <pubDate>Mon, 26 Feb 2024 14:33:09 +0900</pubDate>
-      <guid>https://www.best-book.info/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/</guid>
+      <guid>http://localhost:1313/tags/%E5%BF%9C%E7%94%A8%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93/</guid>
       <description></description>
     </item>
     <item>
       <title>その他</title>
-      <link>https://www.best-book.info/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+      <link>http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
       <pubDate>Thu, 22 Feb 2024 21:54:04 +0900</pubDate>
-      <guid>https://www.best-book.info/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
+      <guid>http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
       <description></description>
     </item>
     <item>
       <title>マネジメント</title>
-      <link>https://www.best-book.info/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link>
+      <link>http://localhost:1313/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link>
       <pubDate>Thu, 22 Feb 2024 18:41:51 +0900</pubDate>
-      <guid>https://www.best-book.info/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</guid>
+      <guid>http://localhost:1313/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</guid>
       <description></description>
     </item>
   </channel>
