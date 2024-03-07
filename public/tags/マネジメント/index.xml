@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>マネジメント on まりつく.com</title>
-    <link>http://localhost:1313/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link>
+    <link>https://www.best-book.info/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/</link>
     <description>Recent content in マネジメント on まりつく.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 22 Feb 2024 18:41:51 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.best-book.info/tags/%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>サービスマネジメント</title>
-      <link>http://localhost:1313/posts/servicemanagement/</link>
+      <link>https://www.best-book.info/posts/servicemanagement/</link>
       <pubDate>Thu, 22 Feb 2024 18:41:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/servicemanagement/</guid>
+      <guid>https://www.best-book.info/posts/servicemanagement/</guid>
       <description>目次 ITILとSLA ファシリティーマネジメント 1. ITILとSLA ITILはサービスマネジメントのベストプラクティスのフレームワーク SLAはサ</description>
     </item>
     <item>
       <title>プロジェクトマネジメント</title>
-      <link>http://localhost:1313/posts/pm/</link>
+      <link>https://www.best-book.info/posts/pm/</link>
       <pubDate>Wed, 21 Feb 2024 22:46:40 +0900</pubDate>
-      <guid>http://localhost:1313/posts/pm/</guid>
+      <guid>https://www.best-book.info/posts/pm/</guid>
       <description>目次 スコープとWBS 管理の知識体系と品質マネジメント リスクマネジメント 1.スコープとWBS プロジェクトスコープは成果物とそれを作成するのに必</description>
     </item>
   </channel>

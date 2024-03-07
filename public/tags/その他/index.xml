@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>その他 on まりつく.com</title>
-    <link>http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+    <link>https://www.best-book.info/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
     <description>Recent content in その他 on まりつく.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 22 Feb 2024 21:54:04 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.best-book.info/tags/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>マークダウンの記法</title>
-      <link>http://localhost:1313/posts/markdownmemo/</link>
+      <link>https://www.best-book.info/posts/markdownmemo/</link>
       <pubDate>Thu, 22 Feb 2024 21:54:04 +0900</pubDate>
-      <guid>http://localhost:1313/posts/markdownmemo/</guid>
+      <guid>https://www.best-book.info/posts/markdownmemo/</guid>
       <description>見出し # マークダウンテスト ## マークダウンテスト ### マークダウンテスト #### マークダウンテスト ##### マークダウンテスト ###### マークダウンテスト マークダウンテ</description>
     </item>
   </channel>
