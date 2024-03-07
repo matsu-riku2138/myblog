@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>投稿 on まりつく.com</title>
-    <link>https://www.best-book.info/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in 投稿 on まりつく.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 26 Feb 2024 14:33:09 +0900</lastBuildDate>
-    <atom:link href="https://www.best-book.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>法務</title>
-      <link>https://www.best-book.info/posts/judicialaffairsrs/</link>
+      <link>http://localhost:1313/posts/judicialaffairsrs/</link>
       <pubDate>Mon, 26 Feb 2024 14:33:09 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/judicialaffairsrs/</guid>
+      <guid>http://localhost:1313/posts/judicialaffairsrs/</guid>
       <description>目次 知的財産権 セキュリティ関連法規 労働関連・取引関連法規 その他の法律とガイドライン・技術者倫理 知的財産権 産業財産権や著作権などは知的財産権 著</description>
     </item>
     <item>
       <title>企業活動</title>
-      <link>https://www.best-book.info/posts/corporateactivities/</link>
+      <link>http://localhost:1313/posts/corporateactivities/</link>
       <pubDate>Sun, 25 Feb 2024 16:11:21 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/corporateactivities/</guid>
+      <guid>http://localhost:1313/posts/corporateactivities/</guid>
       <description>目次 経営・組織論 IE・OR 会計・財務 経営・組織論 PDCAは企業活動の計画、実行、点検、処置のサイクル CIOは情報システム最高責任者 経営・組織</description>
     </item>
     <item>
       <title>ビジネスインダストリ</title>
-      <link>https://www.best-book.info/posts/businessindustry/</link>
+      <link>http://localhost:1313/posts/businessindustry/</link>
       <pubDate>Sat, 24 Feb 2024 16:27:23 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/businessindustry/</guid>
+      <guid>http://localhost:1313/posts/businessindustry/</guid>
       <description>目次 ビジネスインダストリ エンジニアリングシステム e-ビジネスとソリューションビジネス ビジネスシステム IoTは様々な物体(モノ)に通信機能をも</description>
     </item>
     <item>
       <title>技術戦略マネジメント</title>
-      <link>https://www.best-book.info/posts/gijutsusenryakumanagement/</link>
+      <link>http://localhost:1313/posts/gijutsusenryakumanagement/</link>
       <pubDate>Fri, 23 Feb 2024 17:33:03 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/gijutsusenryakumanagement/</guid>
+      <guid>http://localhost:1313/posts/gijutsusenryakumanagement/</guid>
       <description>目次 技術開発戦略の立案 技術開発計画 技術開発戦略の立案 MOTは企業が持続的発展のために技術の可能性を事業に結びつけること イノベーションは新しい</description>
     </item>
     <item>
       <title>経営戦略マネジメント</title>
-      <link>https://www.best-book.info/posts/keieisenryakumanagement/</link>
+      <link>http://localhost:1313/posts/keieisenryakumanagement/</link>
       <pubDate>Fri, 23 Feb 2024 16:20:15 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/keieisenryakumanagement/</guid>
+      <guid>http://localhost:1313/posts/keieisenryakumanagement/</guid>
       <description>目次 経営戦略手法 マーケティング 経営管理システム 経営戦略手法 SWOT分析は強み、弱み、機械、脅威の４つの軸で評価 PPMにおいて利益の殆どを花形</description>
     </item>
     <item>
       <title>情報システム戦略とシステム企画</title>
-      <link>https://www.best-book.info/posts/isysandsysplan/</link>
+      <link>http://localhost:1313/posts/isysandsysplan/</link>
       <pubDate>Fri, 23 Feb 2024 15:16:32 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/isysandsysplan/</guid>
+      <guid>http://localhost:1313/posts/isysandsysplan/</guid>
       <description>目次 全体最適化計画とシステム化計画 エンタープライズアーキテクチャ(EA) 要求分析・要件定義・調達 全体最適化計画とシステム化計画 全体最適化計画</description>
     </item>
     <item>
       <title>マークダウンの記法</title>
-      <link>https://www.best-book.info/posts/markdownmemo/</link>
+      <link>http://localhost:1313/posts/markdownmemo/</link>
       <pubDate>Thu, 22 Feb 2024 21:54:04 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/markdownmemo/</guid>
+      <guid>http://localhost:1313/posts/markdownmemo/</guid>
       <description>見出し # マークダウンテスト ## マークダウンテスト ### マークダウンテスト #### マークダウンテスト ##### マークダウンテスト ###### マークダウンテスト マークダウンテ</description>
     </item>
     <item>
       <title>サービスマネジメント</title>
-      <link>https://www.best-book.info/posts/servicemanagement/</link>
+      <link>http://localhost:1313/posts/servicemanagement/</link>
       <pubDate>Thu, 22 Feb 2024 18:41:51 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/servicemanagement/</guid>
+      <guid>http://localhost:1313/posts/servicemanagement/</guid>
       <description>目次 ITILとSLA ファシリティーマネジメント 1. ITILとSLA ITILはサービスマネジメントのベストプラクティスのフレームワーク SLAはサ</description>
     </item>
     <item>
       <title>プロジェクトマネジメント</title>
-      <link>https://www.best-book.info/posts/pm/</link>
+      <link>http://localhost:1313/posts/pm/</link>
       <pubDate>Wed, 21 Feb 2024 22:46:40 +0900</pubDate>
-      <guid>https://www.best-book.info/posts/pm/</guid>
+      <guid>http://localhost:1313/posts/pm/</guid>
       <description>目次 スコープとWBS 管理の知識体系と品質マネジメント リスクマネジメント 1.スコープとWBS プロジェクトスコープは成果物とそれを作成するのに必</description>
     </item>
   </channel>
